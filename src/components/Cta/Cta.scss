@@ -1,0 +1,64 @@
+#ctaWrapper{  
+  height: 150px;
+}
+#cta{  
+  margin: 30px 0px;
+  display: flex;
+  border-top: solid thin #999;
+  border-bottom: solid thin #999;
+  padding: 20px 5px;
+  justify-content: center;
+  .storie{
+    text-align: center;
+    width: 100px;
+    .gotImg{
+      display: inline-block;
+      width: 70px;
+      height: 70px;
+      overflow: hidden;
+      border-radius: 50%;
+      position: relative;
+      padding: 5px;
+      background: #fff;
+      border: solid thin #c6c6c6;
+      img{
+        margin: 0 auto;
+        width: 65px;
+        height: 65px;
+        overflow: hidden;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }  
+    }
+    h4{
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 400;
+      margin: 0px;
+      line-height: 1em;
+    }    
+  }
+  &.floating{
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    background: #fff;
+    padding: 5px;
+    bottom: -30px;
+    left: 0px;
+    border: none;
+    .gotImg{
+      height: 40px;
+      width: 40px;
+      img{
+        width: 45px;
+        height: 45px;
+      }
+    }
+  }
+}
