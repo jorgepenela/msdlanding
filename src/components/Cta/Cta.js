@@ -6,7 +6,7 @@ const Cta = ()=>{
       <section id="ctaWrapper">
         <div id="cta">
         <div className="storie">
-            <a data-fancybox="gallery" href="./assets/doracur1.mp4" className="gotImg" id="botonDoracur">
+            <a data-fancybox="gallery" href="./assets/doracur-septiembre.mp4" className="gotImg" id="botonDoracur">
               <img src="./assets/doracur-ico.png" alt="doracur"></img>            
             </a>
             <br></br>

@@ -19,6 +19,15 @@ const Lista = ()=>{
       <h3>Somos tu aliado en la salud <br className="xs-hidden"></br> de tu ganado y en tu negocio</h3>
       <Cta />
       <div id="feed">
+
+        <Suspense fallback={<h4>Cargando...</h4>}>
+          <Foto ruta='feed/doracur2809.jpg' video="doracur2809.mp4"></Foto>
+        </Suspense>
+
+        <Suspense fallback={<h4>Cargando...</h4>}>
+          <Foto ruta='feed/44.jpg' video="doracur-septiembre.mp4"></Foto>
+        </Suspense>
+
         <Suspense fallback={<h4>Cargando...</h4>}>
           <Foto ruta='feed/feed_doracur1-poster.jpg' video="doracur1.mp4"></Foto>
         </Suspense>

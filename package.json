@@ -1,6 +1,6 @@
 {
-  "name": "msdlanding",
-  "homepage":"/msdsaludanimal/",  
+  "name": "msdlanding",  
+  "homepage":"/msdsaludanimal/", 
   "version": "0.1.0",
   "private": true,
   "dependencies": {
