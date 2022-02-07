@@ -7,10 +7,12 @@
   border-top: solid thin #999;
   border-bottom: solid thin #999;
   padding: 20px 5px;
-  justify-content: center;
+  justify-content: center;  
+  overflow-x: auto;
   .storie{
     text-align: center;
     width: 100px;
+    padding: 10px;
     .gotImg{
       display: inline-block;
       width: 70px;
@@ -60,5 +62,26 @@
         height: 45px;
       }
     }
+  }
+}
+
+
+@media screen and (max-width:500px){
+  #cta{
+    position: relative;
+    width: 100vw;
+    justify-content: left;
+  }
+  #cta.floating::after{
+    content: "";
+    display: block;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0), #fafafa);
+    position: fixed;
+    width: 75px;
+    height: 114px;
+    bottom: 0px;
+    right: 0px;
+    z-index: 9;
+    pointer-events: none;
   }
 }

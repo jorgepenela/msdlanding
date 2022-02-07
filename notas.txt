@@ -1,0 +1,6 @@
+
+Para publicar:
+incluir esta linea en package.json, debajo del name.
+"homepage":"/msdsaludanimal/", 
+
+luego ejecutar en consola npm run build

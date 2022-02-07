@@ -25,7 +25,21 @@ const Cta = ()=>{
             </a>
             <br></br>
             <h4>Productos de Lechería</h4>
-          </div>          
+          </div>                    
+          <div className="storie">
+            <a href="https://www.facebook.com/clubganaderoregionsur/" className="gotImg" id="botonClubGanadero" target="_blank">
+              <img src="./assets/logo_facebook.png" alt="Club Ganadero"></img>            
+            </a>
+            <br></br>
+            <h4>Club Ganadero</h4>
+          </div>
+          <div className="storie">
+            <a href="https://www.msd-salud-animal.com.ar/productos-ganaderia-todos/" className="gotImg" id="botonMSD" target="_blank">
+              <img src="./assets/logo_msd.png" alt="MSD"></img>            
+            </a>
+            <br></br>
+            <h4>MSD Salud Animal</h4>
+          </div>
           <div className="storie">
             <a href="#contacto" className="gotImg" id="botonContacto">
               <img src="./assets/contacto.png" alt="contacto"></img>            
